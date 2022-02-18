@@ -7,50 +7,54 @@
 </head>
 
 <body>
-  <section>
-    <h1 class="banner">Pangolin</h1>
+  <header class="banner">
+    <h1>Pangolin</h1>
     <nav>
       <ul>
         <li><a href="#">Jump to main content</a></li>
         <li><a href="#">Jump to navigation</a></li>
       </ul>
     </nav>
-  </section>
+  </header>
 
-  <section>
-    <img src="images/pangolin.jpg" alt="An image of a curled up mother and baby pangolin in the woods">
-    <nav>
+  <main role="main content">
+    <section>
+      <img src="images/pangolin.jpg" alt="An image of a curled up mother and baby pangolin in the woods">
+      <nav role="navigation">
+        <ul>
+          <li>Description</li>
+          <li>Behaviour</li>
+          <li>Conservation</li>
+        </ul>
+      </nav>
+    </section>
+
+    <section>
+      <h2>Description</h2>
+      <p>Some countries where pangolins are found</p>
       <ul>
-        <li>Description</li>
-        <li>Behaviour</li>
-        <li>Conservation</li>
+        <li>Botswana</li>
+        <li>Kenya</li>
+        <li>Mozambique</li>
+        <li>Namibia</li>
+        <li>South Africa</li>
+        <li>Tanzania</li>
+        <li>Uganda</li>
+        <li>Zambia</li>
+        <li>Zimbabwe</li>
       </ul>
-    </nav>
-  </section>
-
-  <section>
-    <h2>Description</h2>
-    <p>Some countries where pangolins are found</p>
-    <ul>
-      <li>Botswana</li>
-      <li>Kenya</li>
-      <li>Mozambique</li>
-      <li>Namibia</li>
-      <li>South Africa</li>
-      <li>Tanzania</li>
-      <li>Uganda</li>
-      <li>Zambia</li>
-      <li>Zimbabwe</li>
-    </ul>
-  </section>
+    </section>
+  </main>
 
   <section>
     <h2 id="behaviour">Behaviour</h2>
-    <ul>
-      <li><a href="#">https://en.wikipedia.org/wiki/Pangolin</a></li>
-      <li><a href="#">Read more about Pangolin behaviour</a></li>
-      <li><a href="#">Read more</a></li>
-    </ul>
+    <nav role="navigation">
+      <ul>
+        <li><a href="#">https://en.wikipedia.org/wiki/Pangolin</a></li>
+        <li><a href="#">Read more about Pangolin behaviour</a></li>
+        <li><a href="#">Read more</a></li>
+      </ul>
+    </nav>
   </section>
 
   <section>
@@ -63,7 +67,7 @@
   </section>
 
   <footer>
-    <p>© 1821 Pangolin</p>
+    <p role="contentinfo">© 1821 Pangolin</p>
   </footer>
 
 </body>
