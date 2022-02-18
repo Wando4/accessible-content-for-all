@@ -7,27 +7,27 @@
 </head>
 
 <body>
-  <header class="banner">
+  <header role="banner">
     <h1>Pangolin</h1>
     <nav>
       <ul>
-        <li><a href="#">Jump to main content</a></li>
-        <li><a href="#">Jump to navigation</a></li>
+        <li><a href="#main">Jump to main content</a></li>
+        <li><a href="#nav">Jump to navigation</a></li>
       </ul>
     </nav>
   </header>
 
-  <main role="main content">
-    <section>
+  <main role="main">
+    <aside role="complementary">
       <img src="images/pangolin.jpg" alt="An image of a curled up mother and baby pangolin in the woods">
       <nav role="navigation">
-        <ul>
+        <ul role="presentation">
           <li>Description</li>
           <li>Behaviour</li>
           <li>Conservation</li>
         </ul>
       </nav>
-    </section>
+    </aside>
 
     <section>
       <h2>Description</h2>
@@ -50,9 +50,9 @@
     <h2 id="behaviour">Behaviour</h2>
     <nav role="navigation">
       <ul>
-        <li><a href="#">https://en.wikipedia.org/wiki/Pangolin</a></li>
-        <li><a href="#">Read more about Pangolin behaviour</a></li>
-        <li><a href="#">Read more</a></li>
+        <li><a href="#" aria-label="Pangolin on Wikipedia">https://en.wikipedia.org/wiki/Pangolin</a></li>
+        <li><a href="#" aria-label="Read more about Pangolin behaviour">Read more about Pangolin behaviour</a></li>
+        <li><a href="#" aria-label="Read more">Read more</a></li>
       </ul>
     </nav>
   </section>
@@ -60,9 +60,9 @@
   <section>
     <h2>Conservation</h2>
     <ul>
-      <li><a href="Conservation">https://en.wikipedia.org/wiki/Pangolin</a></li>
-      <li><a href="#">Read more about Pangolin conservation</a></li>
-      <li><a href="#">Read more</a></li>
+      <li><a href="#" aria-label="Pangolin Conservation on Wikipedia">https://en.wikipedia.org/wiki/Pangolin</a></li>
+      <li><a href="#" aria-label="Read more about Pangolin conservation">Read more about Pangolin conservation</a></li>
+      <li><a href="#" aria-label="Read more">Read more</a></li>
     </ul>
   </section>
 
